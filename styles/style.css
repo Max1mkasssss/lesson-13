@@ -24,7 +24,45 @@ li {
     list-style-type: none;
     font-size: 32px;
 } */
-.flex-container{ 
+
+.main-container {
     display: flex;
+    justify-content: center;
+}
+  
+.nav-menu {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.flex-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+.flex-item {
+   gap: 20px;
+}
+  
+.flex-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+  
+.flex-link:hover {
+    background-color: #555;
+}
+.main-foto{ 
+  display: block;
+  margin: auto;
+}
+ul{ 
     list-style-type: none;
 }
